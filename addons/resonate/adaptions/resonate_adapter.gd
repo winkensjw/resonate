@@ -13,7 +13,7 @@ extends Node
 
 ## Logger instance for this class.
 ## It is initialized with the name of this script's class.
-var _log: Log = Log.new(self.name)
+var _log: Log = Log.new("ResonateAdapter")
 
 
 ## Called when the node is initialized.
